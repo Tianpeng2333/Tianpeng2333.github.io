@@ -89,10 +89,10 @@ tags: [学习笔记, 解谜, 游戏]
 
 为了避免被将死第二步必须让在 e2 的王走到 e3 躲开后的范围。此时你只剩下一步，看起来黑棋有很多方式阻止被将死，但在不下十种将死白棋的方法中，每一种方法白棋都有一个对应的回击方式，阻止自己被将死的同时还能反过来将死黑棋，比如下面就是一种情况（从升变下一步开始）：
 
-{% swiper width:min %}
-![](./lesson5_chess3-1.jpg)
-![](./lesson5_chess3-2.jpg)
-![](./lesson5_chess3-3.jpg)
+{% swiper width:max %}
+![lesson5_chess3-1.jpg](https://s2.loli.net/2022/08/16/o9PjH7Fqc2D4AxJ.jpg)
+![lesson5_chess3-2.jpg](https://s2.loli.net/2022/08/16/g3ET4NtRk7lMzIZ.jpg)
+![lesson5_chess3-3.jpg](https://s2.loli.net/2022/08/16/CwxgQhHpjZ8c4Pt.jpg)
 {% endswiper %}
 
 这是相当令人震惊的。当 Sam Loyd 最初创作这个谜题时，他曾指出这是可想象的最不可能的一步棋。人们一直在挖掘国际象棋残局的数据库，去找到那些必须做一些疯狂的事情才能获胜的情形，比如需要把两个兵升变成一个马和一个象，此外都无法解开谜题的情况。为什么会一直去找这些会发生看起来最荒唐的事情的残局呢？是因为这种惊喜、这种独特的发现感创造了一个尤里卡时刻，并使其非常具有闪光点。就像是说，这完全不可能，但它的的确确发生了。你在展示一些有趣的事情，而接下来就是我们的第六课：
@@ -105,10 +105,10 @@ tags: [学习笔记, 解谜, 游戏]
 
 看起来白棋有麻烦了，但其实有个很简单的办法取胜。先将 f7 的后移到 g8，此时黑棋的王不能吃后，因为有象在保护，但黑棋还是可以用车吃掉它。接下来，只需要把 g5 的马移到 f7，就可以将被黑棋棋子堵住的王给将死。
 
-{% swiper width:min %}
-![](./lesson6_chess2-1.jpg)
-![](./lesson6_chess2-2.jpg)
-![](./lesson6_chess2-3.jpg)
+{% swiper width:max %}
+![lesson6_chess2-1.jpg](https://s2.loli.net/2022/08/16/K913BFAHbG7TjOm.jpg)
+![lesson6_chess2-2.jpg](https://s2.loli.net/2022/08/16/kjRvb7lcIMOJVUu.jpg)
+![lesson6_chess2-3.jpg](https://s2.loli.net/2022/08/16/fBdvwG9T7nFDzEr.jpg)
 {% endswiper %}
 
 闷将其实在真正的象棋对局中也经常出现，而“闷将是可能的”这一点本身，就是一个很有趣的事实。而这个谜题的价值就在于它能够向玩家传达这个事实。谜题会让它看上去是一种挑战，但当解出的那一刻玩家就会意识到发生了一件很有趣的事情。你可能会问闷将为什么很有趣，那接下来就是我随便列的一些理由：
