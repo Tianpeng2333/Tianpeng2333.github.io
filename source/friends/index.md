@@ -11,6 +11,7 @@ comment_id: '留言板'
 ## 挚友
 
 感谢你们的陪伴！
+{% friends only:group1 %}
 
 ## 来自 GitHub 的朋友
 以下友链通过 [GitHub Issue](https://github.com/Tianpeng2333/friends/issues)提交：
