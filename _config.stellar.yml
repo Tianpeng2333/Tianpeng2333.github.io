@@ -1,0 +1,59 @@
+sidebar:
+  menu:
+    post: '[博客](/)'
+    #wiki: '[项目](/wiki/)'
+    notes: '[便笺](/notes/)'
+    friends: '[友链](/friends/)'
+    about: '[关于](/about/)'
+  widgets:
+    # Recent update
+    recent:
+      rss: /atom.xml # npm i hexo-generator-feed
+
+article:
+  # 分类颜色
+  category_color:
+    '游戏设计': '#03a9f4'
+  share: [wechat, weibo, email, link]
+  related_posts:
+    enable: true
+    title: 您可能感兴趣的其他文章
+    auto_cover: false
+
+comments:
+  service: beaudar
+  beaudar:
+    repo: Tianpeng2333/Blog_Comments
+
+footer:
+  social:
+    github:
+      icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/08a41b181ce68.svg"/>'
+      url: https://github.com/Tianpeng2333
+    music:
+      icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3845874.svg"/>'
+      url: https://music.163.com/#/user/home?id=456325547
+    comments:
+      icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/942ebbf1a4b91.svg"/>'
+      url: /about/#comments
+  sitemap:
+    '博客':
+      - '[近期](/)'
+      - '[分类](/blog/categories/)'
+      - '[标签](/blog/tags/)'
+      - '[归档](/blog/archives/)'
+    '社交':
+      - '[友链](/friends/)'
+      - '[留言板](/about/#comments)'
+    '更多':
+      - '[关于本站](/about/)'
+      - '[GitHub](https://github.com/Tianpeng2333)'
+  source: '[GitHub](https://github.com/Tianpeng2333/Tianpeng2333.github.io)'
+
+plugins:
+  # MathJax
+  # 需在Markdown文件开头加入mathjax: true
+  # 推荐使用Pandoc: npm uninstall hexo-renderer-marked --save & npm install hexo-renderer-pandoc --save
+  mathjax:
+    enable: true
+    cdn: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML
