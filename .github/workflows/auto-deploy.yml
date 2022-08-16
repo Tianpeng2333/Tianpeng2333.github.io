@@ -25,7 +25,7 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        deploy_key: ${{ secrets.GHPAGE_DEPLOY_KEY }}
+        deploy_key: ${{ secrets.GITHUB_TOKEN }}
         external_repository: Tianpeng2333/Tianpeng2333.github.io
         publish_branch: gh-pages
         publish_dir: ./public
