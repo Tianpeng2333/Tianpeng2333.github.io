@@ -26,7 +26,6 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        external_repository: Tianpeng2333/Tianpeng2333.github.io
         publish_branch: gh-pages
         publish_dir: ./public
         commit_message: ${{ github.event.head_commit.message }}
