@@ -9,6 +9,18 @@ sidebar:
     # Recent update
     recent:
       rss: /atom.xml # npm i hexo-generator-feed
+    # github user
+    ghuser:
+      layout: ghuser
+      api: https://api.github.com
+      username: Tianpeng2333 # your github login username
+      avatar: true
+    ghuser_mini:
+      layout: ghuser
+      header: # GitHub Info
+      api: https://api.github.com
+      username: Tianpeng2333 # your github login username
+      avatar: false
 
 article:
   # 分类颜色
