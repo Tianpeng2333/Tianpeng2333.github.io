@@ -60,8 +60,7 @@ footer:
       - '[留言板](/about/#comments)'
     '更多':
       - '[关于本站](/about/)'
-      - '[GitHub](https://github.com/Tianpeng2333)'
-  source: '[GitHub](https://github.com/Tianpeng2333/Tianpeng2333.github.io)'
+      - '[本站源码](https://github.com/Tianpeng2333/Tianpeng2333.github.io)'
 
 plugins:
   # MathJax
